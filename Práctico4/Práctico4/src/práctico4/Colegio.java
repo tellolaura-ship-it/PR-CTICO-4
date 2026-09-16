@@ -26,8 +26,16 @@ public class Colegio {
         Materia Matemáticas = new Materia (2, "Matemáticas", 1);
         Materia Laboratorio1 = new Materia (3, "Laboratorio1", 1);
         
-    }
     Alumno alumno1 = new Alumno (1001, "López", "Martin");
     Alumno alumno2 = new Alumno (1002, "Martínez", "Brenda"); 
     
+    alumno1.agregarMateria(web2);
+    alumno1.agregarMateria(Matemáticas);
+    alumno1.agregarMateria(Laboratorio1);
+    
+    alumno2.agregarMateria(web2);
+    alumno2.agregarMateria(Matemáticas);
+    
+    
 }
+    }
