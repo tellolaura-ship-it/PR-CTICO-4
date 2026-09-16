@@ -35,7 +35,10 @@ public class Colegio {
     
     alumno2.agregarMateria(web2);
     alumno2.agregarMateria(Matemáticas);
+    alumno2.agregarMateria(Laboratorio1);
+    alumno2.agregarMateria(Laboratorio1);
     
-    
+        System.out.println("Cantidad de materias de López: " + alumno1.cantidadMaterias());
+        System.out.println("Cantidad de materias de Martínez: " + alumno2.cantidadMaterias());
 }
     }
